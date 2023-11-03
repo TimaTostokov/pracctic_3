@@ -1,4 +1,5 @@
 import java.util.Arrays;
+
 public class BubbleSort {
 
 //public class Main {
@@ -17,7 +18,6 @@ public class BubbleSort {
     //versions Java
     //String versions = System.getProperty("java.version");
     //System.out.println("Version Java: " + versions);
-
 
 
 //cортировка пузырком

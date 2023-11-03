@@ -10,10 +10,8 @@ public class Program {
         states.add("Italy");
         states.add("Spain");
 
-
         Iterator<String> iter = states.iterator();
         while (iter.hasNext()) {
-
             System.out.println(iter.next());
         }
 
@@ -28,7 +26,6 @@ public class Program {
         ListIterator<String> listIter = united.listIterator();
 
         while (listIter.hasNext()) {
-
             System.out.println(listIter.next());
         }
         // сейчас текущий элемент - Испания
@@ -36,10 +33,10 @@ public class Program {
         listIter.set("Португалия");
         // пройдемся по элементам в обратном порядке
         while (listIter.hasPrevious()) {
-
             System.out.println(listIter.previous());
         }
     }
+
 }
 
 

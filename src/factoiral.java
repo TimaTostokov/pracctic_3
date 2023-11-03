@@ -14,4 +14,5 @@ class Recursion {
         System.out.println("Факториал 4: " + factorial(4));
         System.out.println("Факториал 5: " + factorial(5));
     }
+
 }

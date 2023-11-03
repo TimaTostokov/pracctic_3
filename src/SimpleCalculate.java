@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
 public class SimpleCalculate {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        while (true){
+        while (true) {
             System.out.println("Выберите пункт");
             System.out.println("1.PLUS");
             System.out.println("2.MINUS");
@@ -12,7 +12,7 @@ public class SimpleCalculate {
             System.out.println("5.Выйти");
             int person = scanner.nextInt();
             int result;
-            if (person == 5){
+            if (person == 5) {
                 break;
             } else if (person == 1) {
                 System.out.println("Введите первое число : ");
@@ -46,17 +46,18 @@ public class SimpleCalculate {
                 int a = scanner.nextInt();
                 System.out.println("Введите второе число : ");
                 int b = scanner.nextInt();
-                if (b == 0){
+                if (b == 0) {
                     System.out.println("На ноль делить нельзя");
                 }
                 System.out.println("a : " + a);
                 System.out.println("b : " + b);
                 result = a / b;
                 System.out.println("Ответ : " + result);
-            }else {
+            } else {
                 System.out.println("ERROR/ОШИБКА");
             }
         }
         System.out.println("Операция завершена");
     }
+
 }
