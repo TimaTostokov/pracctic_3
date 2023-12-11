@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 public class Email {
     public static void main(String[] args) {
+
         List<String> emails = new ArrayList<>();
         emails.add("temirlan.tostokov@gmail.com");
         emails.add("test@gmail.com");

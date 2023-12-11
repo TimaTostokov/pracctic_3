@@ -7,6 +7,7 @@ import java.io.IOException;
 
 public class ScreenShot {
     public static void main(String[] args) {
+
         try {
             Robot robot = new Robot();
             Rectangle screenRectangle = new Rectangle(0, 0, 500, 500);
@@ -16,6 +17,7 @@ public class ScreenShot {
             ImageIO.write(screenshot, "png", outputFile);
 
             System.out.println("Screenshot is saved in: " + outputFile);
+
         } catch (AWTException | IOException exception) {
             exception.printStackTrace();
         }

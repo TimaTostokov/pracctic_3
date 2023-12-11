@@ -1,6 +1,4 @@
-import static java.util.Arrays.binarySearch;
-
-public class BinarniyPoisk {
+public class binarySearch {
     public static void main(String[] args) {
         //бинарный поикс
         int[] value = {-5, 8, 7, 343, 234, 1200};

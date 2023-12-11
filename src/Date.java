@@ -3,6 +3,7 @@ import java.time.temporal.ChronoUnit;
 
 public class Date {
     public static void main(String[] args) {
+
         String firstData = "2022-11-05";
         String secondData = "2023-11-05";
 

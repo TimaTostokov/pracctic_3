@@ -1,5 +1,6 @@
 class Recursion {
     static int factorial(int n) {
+
         int result;
 
         if (n < 2) {

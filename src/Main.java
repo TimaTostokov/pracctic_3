@@ -6,8 +6,9 @@ import java.net.URL;
 public class Main {
     //вычисление своего айпи адреса пк
     public static void main(String[] args) throws Exception {
-        InetAddress locahost = InetAddress.getLocalHost();
-        System.out.println("System IP Address: " + (locahost.getHostAddress()).trim());
+
+        InetAddress localHost = InetAddress.getLocalHost();
+        System.out.println("System IP Address: " + (localHost.getHostAddress()).trim());
         String systemIPAddress = "";
         try {
             URL url_name = new URL("http://bot.whatismyipaddress.com");
