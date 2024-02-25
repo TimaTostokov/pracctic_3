@@ -23,6 +23,7 @@ public class WordReverser {
         String reverseWord = reverseWord(word);
         System.out.println("Слово: " + word);
         System.out.println("Результат: " + reverseWord);
+        System.out.println("dfdf");
     }
 
 }
